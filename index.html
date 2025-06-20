@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="left">
+            <a href="/">Jatin Dhiman</a>
+        </div>
+        <div class="right">
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-github"></i><span>github</span></a>
+
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-linkedin"></i><span>Linkedin</span></a>
+
+            <a href="mailto:jatinxraftaar@gmail.com"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- SECTION 1: Hero -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Jatin👋</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, veritatis! Ad eius alias impedit
+                    nostrum ullam ipsam nemo officia quibusdam, soluta dolorum sequi sunt expedita autem voluptates
+                    nesciunt commodi voluptatum exercitationem quod assumenda dolorem harum, iusto possimus labore.
+                    Aperiam molestiae illum repudiandae nam quaerat autem expedita eum facilis blanditiis ipsa quos odio
+                    distinctio consequuntur, ducimus sint corrupti velit optio fuga repellat eligendi nulla doloribus?
+                    Quos necessitatibus quasi accusantium odio atque nobis repudiandae nihil corporis tenetur.</p>
+
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#projects">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Projects</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="Profile 2 .webp" alt="Jatin Dhiman Image">
+            </div>
+        </section>
+
+        <!-- SECTION 2: Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem omnis tempora consequatur laboriosam,
+                praesentium ad a similique quidem nesciunt delectus reiciendis quod numquam sit? Non et quaerat
+                nostrum dolor aliquam.
+                <div class="cells">
+                    <div class="cell">
+                        <img src="html.webp" alt="HTML Logo">
+                        <span>HTML</span>
+                    </div>
+
+                    <div class="cell">
+                        <img src="css-alt.webp" alt="CSS Logo">
+                        <span>css</span>
+                    </div>
+
+                    <div class="cell">
+                        <img src="javascript.webp" alt="Javascript Logo">
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="cell">
+                        <img src="react.webp" alt="React Logo">
+                        <span>React.js</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Project -->
+        <section id="projects" class="projects">
+            <h2>Project</h2>
+            <div class="project-section">
+                <div class="project-card">
+                    <h3>RG Tournament</h3>
+                    <p>A gaming website for registering Yourself and enter in a Tournament using room id and password
+                    </p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>This personal portfolio you're viewing right now!</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: Contact-->
+        <section id="contact" class="contact-section">
+
+            <div class="contact-right">
+                <h2>Get in Touch</h2>
+                <p>Feel free to reach out to me at any time.
+                    You can also contact me on social media or send a direct message through this form.</p>
+                <p>Email: youremail@example.com</p>
+                <p>Location: City, Country</p>
+            </div>
+            <div class="contact-left">
+                <h2>Contact Me</h2>
+                <form action="mailto:jatinxraftaar@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

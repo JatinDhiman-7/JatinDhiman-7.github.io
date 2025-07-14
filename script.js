@@ -11,6 +11,4 @@ toggleButton.addEventListener("click",()=>{
 
     toggleButton.textContent=isDark? "☀ Light Mode":"🌛 Dark Mode";
     localStorage.setItem("theme",isDark?"dark":"light");
-
- 
 });

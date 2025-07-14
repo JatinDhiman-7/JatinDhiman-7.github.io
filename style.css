@@ -85,7 +85,7 @@ nav .right a span {
     margin-left: 5px;
 }
 
-nav span.download-button a{
+nav div a.download-button{
 all: unset;
 background-color:var(--text-color);
 font-size: 16px;
@@ -93,6 +93,12 @@ padding: 4px 8px 4px 8px;
 border-radius: 4px;
 color: #ccc;
 }
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 
 /* section Hero */
 .hero-section {
@@ -297,13 +303,21 @@ color: #ccc;
 }
 
 /*download button*/
-@media(max-width:505px){
-nav span.download-button a{
-    font-size: 10px;
-        display: block;
-    padding-left: 15px;
+@media(max-width: 505px) {
+    nav div a.download-button {
+        flex-direction: column;
+      
+        font-size: 10px;
+        width: 100%;
+        cursor: pointer;
+    }
+nav div button.toggle-button-dark{
+    margin-top: 5px;
+    cursor: pointer;
+   
 }
 }
+
 
 @media(max-width:740px) {
 

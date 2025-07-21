@@ -2,168 +2,127 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jatin Dhiman | Frontend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
+
     <!-- Navbar -->
     <nav>
-        <div class="left">
-            <a href="/">Jatin Dhiman</a>
-        </div>
+        <div class="left"><a href="#">Jatin Dhiman</a></div>
         <div class="right">
-            <a href="https://github.com/JatinDhiman-7" target="_blank" rel="noopener noreferrer"><i
-                    class="fa-brands fa-github"></i><span>github</span></a>
-
-            <a href="https://www.linkedin.com/in/jatin-dhiman-b21170326/" target="_blank" rel="noopener noreferrer"><i
-                    class="fa-brands fa-linkedin"></i><span>Linkedin</span></a>
-
-            <a href="mailto:jatinxraftaar@gmail.com"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
-        </div>
-        <div>
-            <a class="download-button" href="resume/Jatin Resume neww.pdf" download>Download Resume</a>
-            <button id="toggle-button-js" class="toggle-button-dark">🌛 Dark Mode</button>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </div>
     </nav>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+        <div class="text">
+            <h2>Hello, I'm Jatin</h2>
+            <p>I’m a passionate and enthusiastic frontend developer with a strong foundation in HTML, CSS,
+                JavaScript, and React. I enjoy transforming designs into responsive, user-friendly websites and
+                continuously learning new technologies to grow my skills.
 
-    <main>
-        <!-- SECTION 1: Hero -->
-        <section class="hero-section">
-            <div class="text">
-
-                <h2>Hi, I'm Jatin👋</h2>
-                <p>I’m a passionate and enthusiastic frontend developer with a strong foundation in HTML, CSS,
-                    JavaScript, and React. I enjoy transforming designs into responsive, user-friendly websites and
-                    continuously learning new technologies to grow my skills.
-
-                    With a focus on clean, modern UI/UX and attention to detail, I’m always looking for new challenges
-                    and opportunities to contribute to exciting web projects. Ready to collaborate and build seamless
-                    digital experiences!.</p>
-
-                <div class="links">
-                    <a href="#skills">
-                        <i class="fa-solid fa-code"></i>
-                        <span>Skills</span>
-                    </a>
-
-                    <a href="#projects">
-                        <i class="fa-solid fa-pen"></i>
-                        <span>Projects</span>
-                    </a>
-
-                    <a href="#contact">
-                        <i class="fa-solid fa-envelope"></i>
-                        <span>Contact</span>
-                    </a>
-                </div>
+                With a focus on clean, modern UI/UX and attention to detail, I’m always looking for new challenges
+                and opportunities to contribute to exciting web projects. Ready to collaborate and build seamless
+                digital experiences.</p>
+            <div id="download">
+                <a href="resume/Jatin CV.pdf" download>Download Resume</a>
             </div>
-            <div class="headshot">
-                <img src="Profile 2 .webp" alt="Jatin Dhiman Image">
+            <div class="links">
+                <a href="https://github.com/JatinDhiman-7" class="btn"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jatin-dhiman-b21170326/" class="btn"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-        </section>
+        </div>
+        <div class="headshot">
+            <img src="img/jatin.webp" alt="Jatin Dhiman Photo">
+        </div>
+    </section>
 
-        <!-- SECTION 2: Skills -->
-        <section id="skills" class="skills-section">
-            <h2>Skills</h2>
-            <div class="text">
-                Enthusiastic frontend developer (fresher) with hands-on skills in HTML, CSS, JavaScript, and React —
-                passionate about crafting responsive, visually engaging websites and eager to grow by creating seamless
-                user experiences..
-                <div class="cells">
-                    <div class="cell">
-                        <img src="html.webp" alt="HTML Logo">
-                        <span>HTML</span>
-                    </div>
+    <!-- SECTION 2: Skills -->
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="cells">
+            <div class="cell"><img src="img/html.webp" alt="HTML"> HTML</div>
+            <div class="cell"><img src="img/css-alt.webp" alt="CSS"> CSS</div>
+            <div class="cell"><img src="img/javascript.webp" alt="JavaScript"> JavaScript</div>
+            <div class="cell"><img src="img/react.webp" alt="React"> React</div>
+            <div class="cell"><img src="img/github.webp" alt="Git"> Git & GitHub</div>
+        </div>
+    </section>
 
-                    <div class="cell">
-                        <img src="css-alt.webp" alt="CSS Logo">
-                        <span>css</span>
-                    </div>
 
-                    <div class="cell">
-                        <img src="javascript.webp" alt="Javascript Logo">
-                        <span>JavaScript</span>
-                    </div>
+    <!-- SECTION 3: Project -->
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-section">
 
-                    <div class="cell">
-                        <img src="react.webp" alt="React Logo">
-                        <span>React.js</span>
-                    </div>
-                </div>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>This personal portfolio you're viewing right now!</p>
+                <a href="#" class="btn"><i class="fa-solid fa-link"></i> Live</a>
+                <a href="#" class="btn"><i class="fa-brands fa-github"></i> Code</a>
             </div>
-        </section>
 
-        <!-- SECTION 3: Project -->
-        <section id="projects" class="projects">
-            <h2>Project</h2>
-            <div class="project-section">
-
-                <div class="project-card">
-                    <h3>Portfolio Website</h3>
-                    <p>This personal portfolio you're viewing right now!</p>
-                    <a href="#" class="btn">View Project</a>
-                </div>
-
-                <div class="project-card">
-                    <h3>Calculator</h3>
-                    <p>A responsive and interactive web-based calculator built using HTML, CSS, and JavaScript. This
-                        calculator supports basic arithmetic operations like addition, subtraction, multiplication,
-                        division, modulus, and decimal numbers. It includes features like AC (All Clear), DEL (Delete
-                        Last Digit), and an intuitive UI that mimics the layout of modern digital calculators.
-                    </p>
-                    <a href="https://jatindhiman-7.github.io/calculator/" class="btn">View Project</a>
-                </div>
-
-
-                <div class="project-card">
-                    <h3>TaskRaftaar</h3>
-                    <p>🚀 Task Raftaar is a powerful task management app built using ReactJS. It helps users manage
-                        daily tasks with ease — add, update, delete, track progress, and clear all tasks with just one
-                        click!</p>
-                    <a href="https://taskraftaar-project.vercel.app/" class="btn">View Project</a>
-                </div>
-
-                <div class="project-card">
-                    <h3>Rock Paper Scissor</h3>
-                    <p>A simple interactive Rock-Paper-Scissors game built using HTML, CSS, and JavaScript. This project
-                        demonstrates the use of DOM manipulation, localStorage, and basic game logic to create a fun and
-                        responsive browser-based game.</p>
-                    <a href=" https://jatindhiman-7.github.io/Rock-Paper-Scissor-GameProject/" class="btn">View
-                        Project</a>
-                </div>
+            <div class="project-card">
+                <h3>Calculator</h3>
+                <p>A responsive and interactive web-based calculator built using HTML, CSS, and JavaScript. This
+                    calculator supports basic arithmetic operations like addition, subtraction, multiplication,
+                    division, modulus, and decimal numbers. It includes features like AC (All Clear), DEL (Delete
+                    Last Digit), and an intuitive UI that mimics the layout of modern digital calculators.
+                </p>
+                <a href="https://jatindhiman-7.github.io/calculator/" class="btn"><i class="fa-solid fa-link"></i>
+                    Live</a>
+                <a href="https://github.com/JatinDhiman-7/calculator" class="btn"><i class="fa-brands fa-github"></i>
+                    Code</a>
             </div>
-        </section>
 
-        <!-- SECTION 4: Contact-->
-        <section id="contact" class="contact-section">
+            <div class="project-card">
+                <h3>TaskRaftaar</h3>
+                <p>🚀 Task Raftaar is a powerful task management app built using ReactJS. It helps users manage
+                    daily tasks with ease — add, update, delete, track progress, and clear all tasks with just one
+                    click!</p>
+                <a href="https://taskraftaar-project.vercel.app/" class="btn"><i class="fa-solid fa-link"></i> Live</a>
+                <a href="https://github.com/JatinDhiman-7/TaskRaftaar-Project" class="btn"><i
+                        class="fa-brands fa-github"></i> Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Rock Paper Scissor</h3>
+                <p>A simple interactive Rock-Paper-Scissors game built using HTML, CSS, and JavaScript. This project
+                    demonstrates the use of DOM manipulation, localStorage, and basic game logic to create a fun and
+                    responsive browser-based game.</p>
+                <a href=" https://jatindhiman-7.github.io/Rock-Paper-Scissor-GameProject/" class="btn"><i
+                        class="fa-solid fa-link"></i> Live</a>
+                <a href="https://github.com/JatinDhiman-7/Rock-Paper-Scissor-GameProject" class="btn"><i
+                        class="fa-brands fa-github"></i> Code</a>
+            </div>
+        </div>
+    </section>
 
-            <div class="contact-right">
-                <h2>Get in Touch</h2>
-                <p>Feel free to reach out to me at any time.
-                    You can also contact me on social media or send a direct message through this form.</p>
-                <p>Email: youremail@example.com</p>
-                <p>Location: City, Country</p>
-            </div>
-            <div class="contact-left">
-                <h2>Contact Me</h2>
-                <form action="mailto:jatinxraftaar@gmail.com" method="post" enctype="text/plain" class="contact-form">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your email" required>
-                    <textarea name="message" placeholder="Your Message" required></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
-            </div>
-        </section>
-    </main>
+
+    <!-- SECTION 4: Contact-->
+    <section class="contact-section" id="contact">
+        <div class="contact-left">
+            <h2 class="section-title">Contact Me</h2>
+            <p>Email: <a href="mailto:jatinxraftaar@gmail.com">jatinxraftaar@gmail.com</a></p>
+            <p>Location: India</p>
+        </div>
+        <div class="contact-right">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
     <script src="script.js"></script>
 </body>
 
